@@ -4,6 +4,7 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { CheckCircle, Zap, Shield, ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import ChatBot from '../components/ChatBot';
 
 const Feature = ({ icon, title, description }) => (
   <Card className="flex flex-col items-center text-center">
@@ -100,6 +101,7 @@ const Index = () => {
         </section>
       </main>
       <Footer />
+      <ChatBot />
     </div>
   );
 };
